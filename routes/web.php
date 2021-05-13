@@ -17,6 +17,34 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('welcome',function (){
+    return view('welcome');
+});
+
+#journey
+    Route::prefix('jor')->group(function (){
+
+        // [ bases ]
+        Route::get('',function (){
+
+        });
+
+        // [ navigation ]
+        Route::get('/navigation',function (){
+            return view('navigation-menu');
+        });
+
+        //[ policy ]
+        Route::get('policy',function (){
+            return view('policy');
+
+        });
+        //[ terms ]
+        Route::get('terms',function (){
+            return view('terms');
+        });
+    });
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');

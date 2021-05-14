@@ -1,4 +1,7 @@
-@section('heade')
+@yield('content')
+<!DOCTYPE html>
+<html lang="zh_TW">
+
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -31,4 +34,4 @@
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
 </head>
-@endsection
+

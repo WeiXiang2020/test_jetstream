@@ -21,6 +21,14 @@ Route::get('welcome',function (){
     return view('welcome');
 });
 
+#teacher
+    Route::prefix('teacher')->group(function (){
+    // [ index ]
+        Route::get('index',function (){
+            return view('teacher.index');
+        });
+    });
+
 #journey
     Route::prefix('jor')->group(function (){
 

@@ -1,5 +1,5 @@
-
-
+@extends('teacher.layouts.main')
+@section('content')
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients section-bg">
       <div class="container">
@@ -691,3 +691,4 @@
       </div>
     </section><!-- End Contact Section -->
 
+@stop

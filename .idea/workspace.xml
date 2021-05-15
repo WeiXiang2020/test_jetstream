@@ -166,6 +166,7 @@
       <workItem from="1620961870068" duration="4018000" />
       <workItem from="1620975417413" duration="156000" />
       <workItem from="1620976738374" duration="595000" />
+      <workItem from="1621066843301" duration="4155000" />
     </task>
     <servers />
   </component>
@@ -186,9 +187,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/resources/views/teacher/data.blade.php</url>
+          <line>7</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/resources/views/teacher/index.blade.php</url>
-          <line>38</line>
-          <option name="timeStamp" value="2" />
+          <line>176</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

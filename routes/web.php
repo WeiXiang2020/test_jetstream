@@ -23,6 +23,11 @@ Route::get('welcome',function (){
 
 #teacher
     Route::prefix('teacher')->group(function (){
+    // [ data ]
+        Route::get('data',function (){
+            return view('teacher.data');
+        });
+
     // [ index ]
         Route::get('index',function (){
             return view('teacher.index');

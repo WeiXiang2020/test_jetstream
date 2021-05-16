@@ -38,6 +38,11 @@ Route::get('welcome',function (){
             return view('teacher.post');
         });
 
+    // [ inner ]
+        Route::get('inner',function (){
+            return view('teacher.inner');
+        });
+
     });
 
 #journey

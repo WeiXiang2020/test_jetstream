@@ -5,7 +5,7 @@
 @endsection
 
 @section('content')
-<p>
+<p class="p-lg-0">
     test data
 </p>
 @endsection

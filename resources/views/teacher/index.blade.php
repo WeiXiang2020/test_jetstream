@@ -1,4 +1,10 @@
 @extends('teacher.layouts.main')
+
+@section('title')
+    <h1>Home</h1>
+@endsection
+
+
 @section('content')
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients section-bg">
